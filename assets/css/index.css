@@ -1,0 +1,74 @@
+body {
+  background-image: radial-gradient(circle at top right, #F0A6C3 0, #E48BA3 40%, #C63C50 90%);
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+  color: #C63C50;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+.main {
+  background-color: #FFF;
+  margin-bottom: 10rem;
+  margin-top: 5rem;
+  padding: 3rem;
+  box-shadow: -30px 60px 60px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+header {
+  text-align: right;
+}
+
+header h1 {
+  font-size: 3.5rem;
+}
+
+.headshot {
+  background-image: url(../images/johngully.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid #C63C50;
+  border-radius: 100%;
+  height: 120px;
+  width: 120px;
+  min-height: 120px;
+  min-width: 120px;
+  margin-left: 30px;
+}
+
+/* Capabilities */
+.capability {
+  margin-bottom: 2rem;
+}
+
+.skill {
+  margin-bottom: .75rem;
+  vertical-align: middle;
+}
+
+.bar-name {
+  text-transform: uppercase;
+}
+
+.bar-0, .bar-20, .bar-40, .bar-60, .bar-80, .bar-100 {
+  height: 1.5rem;
+}
+
+.bar-0   { background: linear-gradient(to right, #C63C50 0%, #CCC 0%); background-clip: content-box; }
+.bar-20  { background: linear-gradient(to right, #C63C50 20%, #CCC 20%); background-clip: content-box; }
+.bar-40  { background: linear-gradient(to right, #C63C50 40%, #CCC 40%); background-clip: content-box; }
+.bar-60  { background: linear-gradient(to right, #C63C50 60%, #CCC 60%); background-clip: content-box; }
+.bar-80  { background: linear-gradient(to right, #C63C50 80%, #CCC 80%); background-clip: content-box; }
+.bar-100 { background: linear-gradient(to right, #C63C50 100%, #CCC 100%); background-clip: content-box; }
