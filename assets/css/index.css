@@ -71,8 +71,20 @@ header h1 {
 }
 
 /* Capabilities */
-.capability {
+.capability, .capability-leadership, .capability-design, .capability-technology {
   margin-bottom: 2rem;
+}
+
+.capability-leadership .skill div:last-child {
+  background-color: #C63C50;
+}
+
+.capability-design .skill div:last-child {
+  background-color: #C63C50;
+}
+
+.capability-technology .skill div:last-child {
+  background-color: #C63C50;
 }
 
 .skill {
@@ -88,9 +100,9 @@ header h1 {
   height: 1.5rem;
 }
 
-.bar-0   { background: linear-gradient(to right, #C63C50 0%, #CCC 0%); background-clip: content-box; }
-.bar-20  { background: linear-gradient(to right, #C63C50 20%, #CCC 20%); background-clip: content-box; }
-.bar-40  { background: linear-gradient(to right, #C63C50 40%, #CCC 40%); background-clip: content-box; }
-.bar-60  { background: linear-gradient(to right, #C63C50 60%, #CCC 60%); background-clip: content-box; }
-.bar-80  { background: linear-gradient(to right, #C63C50 80%, #CCC 80%); background-clip: content-box; }
-.bar-100 { background: linear-gradient(to right, #C63C50 100%, #CCC 100%); background-clip: content-box; }
+.bar-0   { background: linear-gradient(to right, transparent 0%, #CCC 0%); background-clip: content-box; }
+.bar-20  { background: linear-gradient(to right, transparent 20%, #CCC 20%); background-clip: content-box; }
+.bar-40  { background: linear-gradient(to right, transparent 40%, #CCC 40%); background-clip: content-box; }
+.bar-60  { background: linear-gradient(to right, transparent 60%, #CCC 60%); background-clip: content-box; }
+.bar-80  { background: linear-gradient(to right, transparent 80%, #CCC 80%); background-clip: content-box; }
+.bar-100 { background: linear-gradient(to right, transparent 100%, #CCC 100%); background-clip: content-box; }
