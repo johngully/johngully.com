@@ -2,6 +2,8 @@ body {
   background-image: radial-gradient(circle at top right, #F0A6C3 0, #E48BA3 40%, #C63C50 90%);
   background-repeat: no-repeat;
   font-family: 'Roboto', sans-serif;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
 }
 
 h4 {
@@ -20,10 +22,30 @@ section {
 
 .main {
   background-color: #FFF;
-  margin-bottom: 10rem;
-  margin-top: 5rem;
   padding: 3rem;
   box-shadow: -30px 60px 60px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact */
+.contact-top {
+  margin-top: -2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.contact-bottom {
+  margin-top: 4rem;
+  margin-bottom: -4rem;
+}
+
+.contact-top, .contact-bottom {
+  text-align: center;
+}
+
+.contact-top img, .contact-bottom img {
+  width: 36px;
+  height: 36px;
+  margin-left: .4rem;
+  margin-right: .4rem;
 }
 
 /* Header */
